@@ -1,0 +1,16 @@
+.card{
+    position:relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    top:-250px;
+    left:0px;
+    border: 1px;
+    border-radius: 8px;
+    width: 100px;
+}
+.info{
+    position:absolute;
+    top:20px;
+    left:300px;
+}

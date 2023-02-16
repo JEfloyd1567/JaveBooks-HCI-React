@@ -1,0 +1,95 @@
+
+.bgOrange {
+  font-size: 100%;
+  font-weight: bold !important;
+  background-color: rgb(1, 144, 184) !important;
+  color: white !important;
+  width: auto;
+  height: 100px !important;
+}
+
+.main-container{
+  width: 100%;
+  height: 100%;
+  margin: auto auto;
+  min-width: 1280px;
+}
+.menu-left{
+  padding: 0;
+  /*background: #fff;*/
+  height: 100%;
+  margin-top: 20px;
+  min-height: 1080px;
+  background-color: rgba(246, 246, 246, 1);
+  -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.109803921568627);
+  -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.109803921568627);
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.109803921568627);
+}
+.panel-menu{
+  width: 100%;
+  padding: 0 15px;
+}
+.panel-menu-heading{
+  padding: 0 15px;
+}
+.panel-group-defined{
+  margin-bottom: 0;
+  background: #fff;
+}
+.panel-menu-title{
+  padding: 13px 0;
+}
+.panel-menu-icon{
+  margin-top: -5px;
+  margin-right: 5px;
+  float: left;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+.panel-menu-text{
+  font-size: 15px;
+  color: #515151;
+  display: inline-block;
+}
+.panel-menu-caret{
+  color: #B1C5D4;
+  font-size: 17px;
+  font-weight: 700;
+  display: inline-block;
+}
+.index-topShadow{
+  -moz-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.0980392156862745) inset;
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.0980392156862745) inset;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.0980392156862745) inset;
+}
+.panel-indexMenu-body{
+  background: #F6F6F6;
+}
+.panel-indexMenu-body p{
+  padding: 0 44px;
+  margin: 0px;
+  color: #5E5E5E;
+  line-height: 40px;
+  cursor: pointer;
+}
+.panel-indexMenu-body p:last-child{
+  -moz-box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.0980392156862745) inset;
+  -webkit-box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.0980392156862745) inset;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.0980392156862745) inset;
+}
+.panel-indexMenu-active{
+  background: #77ACDD;
+  color: #fff !important;
+}
+.panel-menu-body p{
+  line-height: 40px;
+  padding: 0 44px;
+  margin: 0px;
+  cursor: pointer;
+  border-bottom: 1px solid #e7e7e7;
+}
+.panel-menu-active{
+  background: #E6F7FF;
+  color: #276399;
+}
